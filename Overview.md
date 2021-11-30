@@ -30,7 +30,7 @@ These networks are employed to extract features from input images trained on by 
 
 **VGG**
 
-![Untitled](img/Untitled 1.png)
+![Untitled](img/Untitled\ 1.png)
 
 **GoogLeNet/Inception**
 
