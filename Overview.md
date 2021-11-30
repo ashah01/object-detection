@@ -30,15 +30,15 @@ These networks are employed to extract features from input images trained on by 
 
 **VGG**
 
-![Untitled](img/Untitled\ 1.png)
+![Untitled](img/Untitled_1.png)
 
 **GoogLeNet/Inception**
 
-![Untitled](img/Untitled 2.png)
+![Untitled](img/Untitled_2.png)
 
 **ResNet**
 
-![Untitled](img/Untitled 3.png)
+![Untitled](img/Untitled_3.png)
 
 ### Object detectors
 
