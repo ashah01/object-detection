@@ -1,4 +1,4 @@
-# A Survey of Modern Deep Learning based Object Detection Models
+# [A Survey of Modern Deep Learning based Object Detection Models](https://arxiv.org/abs/2104.11892)
 
 Object detection is the problem of identifying objects pertaining to a predefined class in an image, and specifying their location in the overall image via a bounding box.
 
@@ -50,6 +50,4 @@ These models aim to find an arbitrary number of object proposals during phase 1,
 
 Classify and localize semantic objects in a single shot using dense sampling. Leverage predefined boxes of various scale & aspect ratio to localize objects. 
 
-**R-CNN**
-
-Normalized input image is passed through the region proposal module which produces 2000 object candidates. The module finds parts of the image which have a higher probability of finding an object using selective search. The proposals are then warped and propogated through a CNN network, and the feature vectors are passed to a trained class-specific SVM to obtain confidence scores. Finally, Non-maximum suppression is applied to the scored regions based on its IoU and class. Once the class has been identified, the algorithm can predict the bounding box using a regressor which predicts four paramters (center coordinates of box + width & height). 
+[[R-CNN]]
