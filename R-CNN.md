@@ -1,3 +1,4 @@
+# [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)
 ###  Input image is received
 ### Extracts ~2000 region proposals
 - This is done via [[selective search]] which allows for comparing with previously detected objects.
@@ -10,9 +11,3 @@
 ### Classifies each region using class-specific SVMs 
 
 Note: this allows for the entire system to be quite computationally efficient. The only class-specific computations are small matrix-vector product and greedy non-maximum suppression. This allows for higher scaling
-
-## References
-[Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)
-[Selective Search for Object Detection (C++ / Python)](https://learnopencv.com/selective-search-for-object-detection-cpp-python/)
-[Selective Search for Object Recognition](http://www.huppelen.nl/publications/selectiveSearchDraft.pdf)
-[Efficient Graph-Based Image Segmentation](http://cs.brown.edu/people/pfelzens/papers/seg-ijcv.pdf)
